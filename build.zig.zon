@@ -1,10 +1,11 @@
 .{
-    .name = "sdl-zig-demo",
+    .name = .sdl_zig_demo,
     .version = "0.0.0",
+    .fingerprint = 0xd536f9a26bc5640b,
     .dependencies = .{
         .sdl = .{
-            .url = "https://github.com/andrewrk/SDL/archive/3eb87f0f5b8d815d5a608b732e1d77f0876712d9.tar.gz",
-            .hash = "12206de2e590f0866e7d96a5e60dd352ec28c7006c7a883c9ede84e25b6c61c7c088",
+            .url = "git+https://github.com/allyourcodebase/SDL.git#6f426d8f1bfbc796ff41e6fda2890790ed34f2c7",
+            .hash = "SDL-2.32.2-JToi31GUEgGOf7m8tPCktmPE1Z0cO8bfst98IDm6xJw4",
         },
     },
     .paths = .{
